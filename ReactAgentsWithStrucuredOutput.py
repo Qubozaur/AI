@@ -35,7 +35,7 @@ chain = agent_executor | extract_output | structured_llm
 def main():         
     result = chain.invoke( 
             input={
-                "input": "Search for 3 junior ai engineer jobs in Poland",
+                "input": "Search for 2 junior ai engineer jobs in Poland",
             }
     )
     print(result)
